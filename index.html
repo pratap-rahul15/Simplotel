@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HTML CSS Assignment</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <ul class="nav-links">
-      <li>Home</li>
-      <li>Order</li>
-      <li>Food</li>
-      <li>Restaurant</li>
-      <li>Testimonials</li>
-      <li>Contact Us</li>
-    </ul>
-
-    <img src="images/hamburger.png" alt="menu" class="hamburger">
+    <nav class="nav-center">
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>Order</li>
+        <li>Food</li>
+        <li>Restaurant</li>
+        <li>Testimonials</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
+    <img src="images/hamburger.png" class="hamburger" alt="">
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>LOREM IPSUM</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vivamus id est vitae dolor rhoncus tristique. Maecenas
-        metus quam, rhoncus euismod lorem in, sollicitudin viverra eros.
-      </p>
-      <button>Click Me</button>
-    </div>
+  <!-- MAIN WRAPPER (SHARED BACKGROUND) -->
+  <main class="page-wrapper">
 
-    <div class="hero-image">
-      <img src="images/burger.jpg" alt="burger">
-    </div>
-  </section>
-
-  <!-- GALLERY + CTA SECTION -->
-  <section class="gallery-section">
-    <div class="gallery">
-      <img src="images/img1.jpg" alt="image 1">
-      <img src="images/img2.jpg" alt="image 2">
-      <img src="images/img3.jpg" alt="image 3" class="tall">
-    </div>
-
-    <div class="cta-card">
-      <p class="small-text">LOREM IPSUM</p>
-      <h2>LOREM IPSUM SET ADEMIR</h2>
-      <div class="cta-link">
-        Click
-        <img src="images/arrow-right.png" alt="arrow">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>LOREM IPSUM</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Vivamus id est vitae dolor rhoncus tristique. Maecenas metus
+          quam, rhoncus euismod lorem in, sollicitudin viverra eros.
+        </p>
+        <button>Click Me</button>
       </div>
-    </div>
-  </section>
+
+      <div class="hero-image">
+        <img src="images/burger.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- SECOND SECTION -->
+    <section class="second">
+      <div class="image-composition">
+        <div class="left-stack">
+          <img src="images/img1.jpg" alt="">
+          <img src="images/img3.jpg" alt="">
+        </div>
+        <div class="right-tall">
+          <img src="images/img2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="cta-card">
+        <p class="small">LOREM IPSUM</p>
+        <h2>LOREM IPSUM<br>SET ADEMIR</h2>
+        <div class="cta-link">
+          Click <img src="images/arrow-right.png" alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
